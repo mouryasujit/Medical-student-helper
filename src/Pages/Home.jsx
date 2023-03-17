@@ -20,8 +20,8 @@ const Home = () => {
 
         <ReactSimplyCarouselExample />
         <div className="features bg-[#f1fcf8]">
-          <div className="container w-4/5 flex mx-auto p-4 text-justify space-x-2 space-y-2">
-            <div className="item flex-1 space-x-2 space-y-2 p-4">
+          <div className="container w-4/5 flex mx-auto py-4 text-justify space-x-2 space-y-2">
+            <div className="item flex-1  space-y-1 py-4">
               <h1 className="text-3xl font-bold ">
                 A whole world of freelance talent at your fingertips
               </h1>
@@ -29,7 +29,7 @@ const Home = () => {
                 <img src="./img/check.png" alt="" className="mr-2" />
                 The best for every budget
               </div>
-              <p className="px-2 text-gray-600">
+              <p className="py-2 text-gray-600">
                 Find high-quality services at every price point. No hourly
                 rates, just project-based pricing.
               </p>
@@ -37,7 +37,7 @@ const Home = () => {
                 <img src="./img/check.png" alt="" className="mr-2" />
                 Quality work done quickly
               </div>
-              <p className="px-2 text-gray-600">
+              <p className="py-2 text-gray-600">
                 Find the right freelancer to begin working on your project
                 within minutes.
               </p>
@@ -45,7 +45,7 @@ const Home = () => {
                 <img src="./img/check.png" alt="" className="mr-2" />
                 Protected payments, every time
               </div>
-              <p className="px-2 text-gray-600">
+              <p className="py-2 text-gray-600">
                 Always know what you'll pay upfront. Your payment isn't released
                 until you approve the work.
               </p>
@@ -53,7 +53,7 @@ const Home = () => {
                 <img src="./img/check.png" alt="" className="mr-2" />
                 24/7 support
               </div>
-              <p className="px-2 text-gray-600">
+              <p className="py-2 text-gray-600">
                 Find high-quality services at every price point. No hourly
                 rates, just project-based pricing.
               </p>
@@ -68,8 +68,8 @@ const Home = () => {
           </div>
         </div>
         <div className="features bg-[#0d084d] text-white h-[500px] flex items-center justify-center">
-          <div className="container w-4/5 flex mx-auto p-4 text-justify justify-between item-center space-x-2 space-y-4 ">
-            <div className="item flex-1 space-x-2 space-y-3 p-4">
+          <div className="container w-4/5 flex mx-auto py-4 text-justify justify-between item-center space-x-2 space-y-4 ">
+            <div className="item flex-1   space-y-3 py-4">
               <h1 className="text-3xl font-bold">
                 Msr <i>business</i>
               </h1>

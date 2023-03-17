@@ -31,7 +31,7 @@ const Navbar = () => {
           : "navbar flex h-16 items-center cursor-pointer bg-green-900 text-white sticky top-0 z-50"
       }
     >
-      <div className="container md:w-4/5  mx-auto flex justify-between items-center px-3 py-1   ">
+      <div className="container md:w-4/5  mx-auto flex justify-between items-center py-1   ">
         <div className="logo">
           <Link to="/">
             <span className=" text-3xl font-semibold ">MSR</span>
@@ -62,12 +62,14 @@ const Navbar = () => {
                       <Link
                         to="/mygigs"
                         className="hover:bg-gray-400 hover:rounded-md p-2"
+                        onClick={() => SETopen(!open)}
                       >
                         Jobs
                       </Link>
                       <Link
                         to="/add"
                         className="hover:bg-gray-400 hover:rounded-md p-2"
+                        onClick={() => SETopen(!open)}
                       >
                         Add Jobs
                       </Link>
@@ -76,18 +78,21 @@ const Navbar = () => {
                   <Link
                     to="/orders"
                     className="hover:bg-gray-400 hover:rounded-md p-2"
+                    onClick={() => SETopen(!open)}
                   >
                     Selected
                   </Link>
                   <Link
                     to="/messages"
                     className="hover:bg-gray-400 hover:rounded-md p-2"
+                    onClick={() => SETopen(!open)}
                   >
                     Message
                   </Link>
                   <Link
                     to="/"
                     className="hover:bg-gray-400 hover:rounded-md p-2"
+                    onClick={() => SETopen(!open)}
                   >
                     Logout
                   </Link>

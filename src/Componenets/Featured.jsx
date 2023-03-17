@@ -3,7 +3,7 @@ import React from "react";
 const Featured = () => {
   return (
     <div className="featured flex justify-center h-[600px] bg-green-900 text-white">
-      <div className="container w-4/5 p-3 flex items-center justify-between  ">
+      <div className="container w-4/5 py-3 flex items-center justify-between  ">
         <div className="left flex-1 space-y-6">
           <h1 className="text-4xl font-bold font-sans">
             Find the <span className="font-thin italic ">Perfect Job</span> here
